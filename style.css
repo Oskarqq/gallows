@@ -1,0 +1,88 @@
+body
+{
+    background:url(img/tlo.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 28px;
+    font-family: 'Inconsolata', monospace;
+}
+#container
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#board
+{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+
+}
+#gallows
+{
+float: left;
+width: 450px;
+text-align: center;
+min-height: 280px;
+}
+#alphabet
+{
+float: left;
+width: 450px;
+text-align: center;
+min-height: 280px;
+}
+#name
+{
+text-align: center;
+color: whitesmoke
+}
+#player
+{
+text-align: center;
+color: black;
+}
+.block
+{
+    padding: 40px;
+    background-color: lightslategray;
+    opacity: .6;
+    border-style: solid;
+    border-color: lightslategray;
+    border-radius: 25px;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.letter
+{
+   width: 30px;
+   height: 30px;
+   text-align: center;
+   padding: 5px;
+   margin: 5px; 
+   border: 3px solid gray;
+   float: left;
+   cursor: pointer;
+   border-radius: 15px;
+}
+.letter:hover
+{
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+}
+.reset
+{
+    color: green;
+    cursor: pointer;
+    font-size: 48px;
+}
+.reset:hover
+{
+    color: white;
+}
